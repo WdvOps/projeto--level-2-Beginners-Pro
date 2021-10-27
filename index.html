@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;500&family=Poiret+One&family=Poppins:wght@100;300;500&display=swap"
+        rel="stylesheet">
+    <title>LEVEL 2 .V2</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <img src="images/logo-ford-256.png" alt="">
+            <h1>FORD RANGER</h1>
+            <ul>
+                <li><a
+                        href="https://www.ford.com.br/content/dam/Ford/website-assets/latam/br/nameplate/2022/ranger/pdf/fbr-ficha-tecnica-ranger-2022.pdf">Ficha
+                        técnica</a>
+                </li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="first">
+
+            <content class="content">
+                <img src="/images/image.imgs.full.high.jpg" alt="Foto Ranger" srcset="">
+                <h2>Ranger Black</h2>
+                <div class="info">
+                    <div class="price">
+                        <p>A partir de</p>
+                        <span id="price">R$ 194.690</span>
+                        <h4>RANGER XL CABINE DUPLA 2.2 DIESEL 4X4</h4>
+                        <button onclick="showModal()">VER DETALHES</button>
+
+                    </div>
+
+
+                    <div class="motors">
+                        <div id="motors">
+                            <div class="motor">
+                                <img src="images/Motor.webp" alt="Icone motor">
+                                <p>MOTORES</p>
+                            </div>
+                            <div class="m-200cv">
+                                <p>3.2 Diesel <br>
+                                    Duratorq
+                                </p>
+                                <span>200cv</span>
+                            </div>
+                            <div class="m-160cv">
+                                <p>2.2 Diesel <br>
+                                    Duratorq
+                                </p>
+                                <span>160cv</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="details">
+                        <p>Destaques</p>
+                        <div class="destaques">
+                            <div class="airBags">
+                                <img src="images/Airbags.webp" alt="Icone">
+                                <p>7 Air Bags</p>
+                            </div>
+                            <div class="difer">
+                                <img src="images/DiferencialTraseiroBlocante.webp" alt="Icone">
+                                <p>Diferencial Traseiro <br> <span>Blocante</span> </p>
+                            </div>
+                            <div class="connect">
+                                <img src="images/fbr-territory-icono-fordpass.webp" alt="Icone">
+                                <p>FordPass™ Connect</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </content>
+
+
+        </section>
+        <section class="second">
+
+            <h2>Tecnologia embarcada</h2>
+            <div id="inside">
+                <p>O interior da Ranger traz acabamento de couro do volante e dos puxadores cromados, que garantem uma
+                    sensação única de sofisticação e esportividade que só quem já dirigiu conhece. Além do <span>SYNC®
+                        3</span>, um
+                    sistema multimídia que permite interação intuitiva com o veículo.</p>
+            </div>
+
+        </section>
+        <div id="imageInside">
+            <img src="images/interna.jpg" alt="Foto interna da Ranger">
+        </div>
+
+    </main>
+    <!-- MODAL -->
+    <div class="modal-container" id="modal_fichatec">
+        <div class="modal">
+            <button class="close-btn" onclick="closeModal()">x</button>
+            <img src="images/fichatec.png" alt="Ficha técnica">
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
